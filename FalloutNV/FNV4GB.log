@@ -1,0 +1,495 @@
+﻿    Loader: Getting windows version - 6.1.7601 Service Pack 1
+    Loader: Address Space Size = 0xFFFCFFFF
+    Loader: Getting executable name - Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\FalloutNVLauncher.exe
+    Loader: Parsing Command Line...
+    Loader: Trying to get game path from Bethesda Softworks registry key
+    Loader: Attmepting to open HKLM\SOFTWARE\Bethesda Softworks\FalloutNV - Succeeded
+    Loader: Attempting to query size of "Installed Path" value - Succeeded
+    Loader: Attempting to query "Installed Path" value - Succeeded
+    Loader: Changing directory to Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\
+    Loader: Original exe is: Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe
+    Loader: LAA exe is: Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\exes\FalloutNV.exe
+    Loader: Validating original exe...
+    Loader: checksum != pOptionalHeader->CheckSum
+    Loader: Validation passed
+    Loader: Making sure original and LAA exe are not the same file - They aren't
+    Loader: Making sure this executable is not Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe - It isn't
+    Loader: Making sure this executable is not Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\exes\FalloutNV.exe - It isn't
+    Loader: Original exe doesn't have LAA flag set as required.
+    Loader: Getting file attributes for original exe
+    Loader: Checking if file attributes for original exe and LAA exe match - They did.
+    Loader: Validating and checking status of Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\exes\FalloutNV.exe...
+    Loader: checksum != pOptionalHeader->CheckSum
+    Loader: seems good
+    Loader: Setting SteamAppId environment variable to 22380 (Fallout New Vegas)
+    Loader: Setting SteamGameId environment variable to 22380
+    Loader: Creating process: "Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\exes\FalloutNV.exe" 
+    Loader: Allocating memory buffer in child procress - Success. Buffer at FFDE0000
+    Loader: Getting handle to Kernel32
+    Loader: Getting filename of Kernel32
+    Loader: Getting module information for Kernel32
+    Loader: Creating remote thread to initialize libraries
+    Loader: Waiting for remote thread to exit
+    Loader: Getting number of modules loaded in child process
+    Loader: Getting handles to modules loaded in child process
+    Loader: Looking for handle to Kernel32 in module handle list from child process
+    Loader: Injecting dll loader code into child process.
+    Loader: Writing injection data into child process.
+    Loader: Creating remote thread to load helper dll
+    Loader: Waiting for remote thread to exit
+fnv4gb_helper: successfully injected
+Executable filename: Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\exes\FalloutNV.exe
+Executable address: 0x400000
+Address Space Size = 0xFFFCFFFF
+Resetting LAA Bit
+Getting Handle to KERNEL32 - Succeeded
+Redirecting GetModuleFileNameA
+Loading additional DLLs
+Attempting to load nvse_steam_loader.dll - Succeeded
+fnv4gb_helper: returning from CompleteInjection
+    Loader: Checking if LAA has any effect - It does.
+    Loader: Checking if LAA flag worked for child process - It Did
+    Loader: Starting main thread in child process
+    Loader: Waiting for child process to exit
+NVSE runtime: initialize (version = 5.1.4 040020D0 01D5F17385E20B45)
+imagebase = 00400000
+config path = Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\nvse_config.ini
+plugin directory = Z:\home\bart\.local\share\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\
+max id = 0000161F
+console commands
+script commands
+patched
+init complete
+Hook_DirectInput8Create_Execute
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      63   poster          07 55 51.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     63   poster          07 55 51.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     63   poster          07 55 51.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      64   poster        07 59 11.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     64   poster        07 59 11.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     64   poster        07 59 11.nvse
+NVSE DLL DoSaveGameHook:      65   poster        08 06 44.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     65   poster        08 06 44.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     65   poster        08 06 44.nvse
+NVSE DLL DoSaveGameHook:      66   poster        08 10 06.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     66   poster        08 10 06.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     66   poster        08 10 06.nvse
+NVSE DLL DoSaveGameHook:      67   poster        08 11 11.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     67   poster        08 11 11.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     67   poster        08 11 11.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      68   poster                        08 17 01.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     68   poster                        08 17 01.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     68   poster                        08 17 01.nvse
+NVSE DLL DoSaveGameHook:      69   poster                        08 17 24.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     69   poster                        08 17 24.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     69   poster                        08 17 24.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook:      70   poster                        08 19 01.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     70   poster                        08 19 01.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     70   poster                        08 19 01.nvse
+NVSE DLL DoSaveGameHook:      71   poster                        08 21 34.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     71   poster                        08 21 34.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     71   poster                        08 21 34.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      72   poster                    08 22 50.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     72   poster                    08 22 50.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     72   poster                    08 22 50.nvse
+NVSE DLL DoSaveGameHook:      73   poster                    08 24 36.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     73   poster                    08 24 36.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     73   poster                    08 24 36.nvse
+NVSE DLL DoSaveGameHook:      74   poster                    08 26 48.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     74   poster                    08 26 48.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     74   poster                    08 26 48.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      75   poster              08 35 34.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     75   poster              08 35 34.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     75   poster              08 35 34.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      76   poster          08 42 58.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     76   poster          08 42 58.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     76   poster          08 42 58.nvse
+NVSE DLL DoSaveGameHook:      77   poster          08 48 15.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     77   poster          08 48 15.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     77   poster          08 48 15.nvse
+NVSE DLL DoSaveGameHook:      78   poster          08 48 59.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     78   poster          08 48 59.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     78   poster          08 48 59.nvse
+NVSE DLL DoPreLoadGameHook:      78   poster          08 48 59.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      78   poster          08 48 59.fos
+NVSE DLL DoPostLoadGameHook:      78   poster          08 48 59.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      79   poster          08 59 08.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     79   poster          08 59 08.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     79   poster          08 59 08.nvse
+NVSE DLL DoSaveGameHook:      80   poster          09 04 23.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     80   poster          09 04 23.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     80   poster          09 04 23.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      81   poster            09 07 34.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     81   poster            09 07 34.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     81   poster            09 07 34.nvse
+NVSE DLL DoPreLoadGameHook:      81   poster            09 07 34.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      81   poster            09 07 34.fos
+NVSE DLL DoPostLoadGameHook:      81   poster            09 07 34.fos
+NVSE DLL DoSaveGameHook:      82   poster            09 10 20.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     82   poster            09 10 20.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     82   poster            09 10 20.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook:      83   poster          09 13 13.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     83   poster          09 13 13.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     83   poster          09 13 13.nvse
+NVSE DLL DoPreLoadGameHook:      83   poster          09 13 13.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      83   poster          09 13 13.fos
+NVSE DLL DoPostLoadGameHook:      83   poster          09 13 13.fos
+NVSE DLL DoPreLoadGameHook:      83   poster          09 13 13.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      83   poster          09 13 13.fos
+NVSE DLL DoPostLoadGameHook:      83   poster          09 13 13.fos
+NVSE DLL DoSaveGameHook:      84   poster          09 14 45.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     84   poster          09 14 45.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     84   poster          09 14 45.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      85   poster          09 27 54.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     85   poster          09 27 54.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     85   poster          09 27 54.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook:      86   poster                  09 33 58.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     86   poster                  09 33 58.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     86   poster                  09 33 58.nvse
+NVSE DLL DoSaveGameHook:      87   poster                  09 37 17.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     87   poster                  09 37 17.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     87   poster                  09 37 17.nvse
+NVSE DLL DoSaveGameHook:      88   poster                  09 40 19.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     88   poster                  09 40 19.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     88   poster                  09 40 19.nvse
+NVSE DLL DoSaveGameHook:      89   poster                  09 41 30.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     89   poster                  09 41 30.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     89   poster                  09 41 30.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook:      90   poster                  09 46 37.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     90   poster                  09 46 37.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     90   poster                  09 46 37.nvse
+NVSE DLL DoPreLoadGameHook:      90   poster                  09 46 37.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPostLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPreLoadGameHook:      90   poster                  09 46 37.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPostLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPreLoadGameHook:      90   poster                  09 46 37.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPostLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPreLoadGameHook:      90   poster                  09 46 37.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPostLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPreLoadGameHook:      90   poster                  09 46 37.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoPostLoadGameHook:      90   poster                  09 46 37.fos
+NVSE DLL DoSaveGameHook:      91   poster                  09 49 02.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     91   poster                  09 49 02.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     91   poster                  09 49 02.nvse
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPreLoadGameHook:      91   poster                  09 49 02.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoPostLoadGameHook:      91   poster                  09 49 02.fos
+NVSE DLL DoSaveGameHook:      92   poster                  09 51 08.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     92   poster                  09 51 08.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     92   poster                  09 51 08.nvse
+NVSE DLL DoSaveGameHook:      93   poster                  09 59 06.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     93   poster                  09 59 06.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\     93   poster                  09 59 06.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoPreLoadGameHook: autosave.fos
+Reading mod list from co-save
+Loading array variables
+Loading strings
+NVSE DLL DoLoadGameHook: autosave.fos
+NVSE DLL DoPostLoadGameHook: autosave.fos
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+NVSE DLL DoSaveGameHook: autosave.fos
+saving to C:\users\steamuser\My Documents\My Games\FalloutNV\Saves\autosave.nvse
+saving 1 plugins to C:\users\steamuser\My Documents\My Games\Fallo
